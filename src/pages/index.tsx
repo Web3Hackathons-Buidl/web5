@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <main className={`${theme === 'light' ? 'lightHeroBg' : 'darkHeroBg'} bg-center bg-cover bg-fixed`}>
         <div className='md:px-20 px-8 space-y-4 md:space-y-0 md:flex justify-between items-center py-12 w-full fixed'>
-          <Link href={'/'} className='relative w-32'>
+          <Link href={'/'} className='relative w-32 hover:scale-[0.99] duration-200 transition'>
             <img src={'/images/logo_l.svg'} alt='logo' />
           </Link>
           <div className='flex gap-x-8 items-center'>
