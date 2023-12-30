@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.lightHeroBg{
+  background-image: url('/images/home/base_l.jpg');
+}
+.darkHeroBg{
+  background-image: url('/images/home/base_d.jpg');
+}
 
 .blueToPurple {
   color: white;
