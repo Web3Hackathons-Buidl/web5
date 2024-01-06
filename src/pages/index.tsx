@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useStore } from "zustand";
+import { Web5 } from "@web5/api";
 
 export default function Home() {
   const theme = useStore(themeStore, (state) => state.theme);
